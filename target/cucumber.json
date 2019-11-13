@@ -1,0 +1,95 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login with valid test data",
+        "description": "",
+        "id": "login-test;login-with-valid-test-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8607077800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launches chromeBrowser And navigate to application",
+            "match": {
+              "location": "Stepdefs.user_launches_chromeBrowser_And_navigate_to_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 954432100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter username as \"mercury\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mercury\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Stepdefs.user_enter_username_as_in_username_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 558025800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter password as \"mercury\" in password1 field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mercury\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Stepdefs.user_enter_password_as_in_username_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7337158000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click Signin",
+            "match": {
+              "location": "Stepdefs.click_Signin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15569200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "validates Login success",
+            "match": {
+              "location": "Stepdefs.validates_Login_success()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "skeleton/Login.feature",
+    "tags": []
+  }
+]
